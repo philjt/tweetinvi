@@ -97,7 +97,7 @@ namespace Tweetinvi.Logic
             }
         }
 
-        public IObjectEntities Entities
+        public ITweetEntities Entities
         {
             get { return _messageDTO.Entities; }
         }

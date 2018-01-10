@@ -39,7 +39,7 @@ namespace Tweetinvi.Logic.DTO
         public DateTime CreatedAt { get; set; }
 
         [JsonProperty("entities")]
-        public IObjectEntities Entities { get; set; }
+        public ITweetEntities Entities { get; set; }
 
         [JsonProperty("sender_id")]
         public long SenderId { get; set; }

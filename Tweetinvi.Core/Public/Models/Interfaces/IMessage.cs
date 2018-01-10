@@ -74,7 +74,7 @@ namespace Tweetinvi.Models
         /// <summary>
         /// Entities of the message.
         /// </summary>
-        IObjectEntities Entities { get; }
+        ITweetEntities Entities { get; }
 
         /// <summary>
         /// Destroy the message.
